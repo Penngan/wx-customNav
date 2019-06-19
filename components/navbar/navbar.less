@@ -1,0 +1,70 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_719130_0qob7ltcvkkh.eot?t=1560925370768'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_719130_0qob7ltcvkkh.eot?t=1560925370768#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANcAAsAAAAAB0wAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCNIIMATYCJAMMCwgABCAFhG0HNRtRBsgekiQt+BxQwPGqIR5iiKAaK3t29wlAfb3kECsAEiosgXQcoCcZoyMMG3FH/uVPoHcRuw0rgrN33qeokyqqgquUUPmFKqg+UZ/N7qQtzNICagvTlGJ9CPjJHt+Ay+lP8dYB5bbWpDaOCZhgoHtgGyzAAknQG8ZuInAIpwnUGxbIZFt2YSVYK8CkQNxUK9vAOhdWFCtXK1TXrCziJVSpTY9Mn4AX/PvxX0YtSVUGZh66nNUJqb/Ihz6zB8YHTlICJPM5Ya0jYxEoxOla91FmMr3ITH2gNA+rQbUipLlixgpcHCqr4R8eSRDVQGEjmNUyiV+GxalmVOldF2ZQLfNOA7cAbSd/35DaAwL0k+50YaBHuTj1+UFnJ873f7pNzydXOnfXuub3phTp9dsoRX61OqN4v9xr2vD9va9Zw8eDnsWNfVx6cDjJxcPraO7LJaD+w3G/Wf3jhXqPxYlmduG8m5tr/2aLy/eWlvuAe+L4HvCEKZOA4l7cA+rcWVU7NKs8v1pQ57H8ItwJ4rf/nnGPmlaptMZqbPp39n7gtPRiWesKtrR5Xtt83efQnEfpRU7o5zp+2ypfY5Jjp2tkVbtx0Uj2iHSNMUnOAlReull4dvNt7t//G6//KbU4rPxnRQE/4/9Rg5Ut0C8f1Er0lvxsSc+OEsqAJRdfjMWxN9s3MpVQH/pUAPzt7sfru14oG2p1pUhqDCGrNUkWdhFVGiyjWq111FuQs75BB5GZKHWYN6IgtDpB0uwHslZPycLeoUq376jWGhn1DkfHjg2m4xq3VcQ2GTtJex9RdzADRTaZE8XlqOzStYlZGedUoyipYyQsOLSYy0EDinPMkbqV4bJMCRWZnmQr56FOxwgvMg12yMEqWebjQ0Jo3YuCO5geOFuJUBsZ6kS060OodWAMKO0v40qfL4eUuui0EVtqBsLVkEiiHpwIEyy0B5mjNvSquZdLJN2UwslkFEGJGD0iW3EiHUwzBF8/TAN1kAVTjUjy4oVovWhfdfD6Wv0HFFkNgINypMhRlPNtHVrzq0yPAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_719130_0qob7ltcvkkh.woff?t=1560925370768') format('woff'),
+  url('//at.alicdn.com/t/font_719130_0qob7ltcvkkh.ttf?t=1560925370768') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_719130_0qob7ltcvkkh.svg?t=1560925370768#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+  content: "\e679";
+}
+
+.icon-home:before {
+  content: "\e620";
+}
+
+.title-bar {
+  position: relative;
+  box-sizing: border-box;
+  .left-capsule {
+    border-radius: 16px;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    position: relative;
+    .iconfont {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35rpx;
+      width: 50%;
+      height: 100%;
+      background-color: #fff;
+      &.icon-back {
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+      }
+      &.icon-home {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+      }
+    }
+    .line {
+      position: absolute;
+      background-color: #ececec;
+      width: 1px;
+      height: 18px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  .navigator-hover {
+    background: rgb(0, 0, 0);
+  }
+}

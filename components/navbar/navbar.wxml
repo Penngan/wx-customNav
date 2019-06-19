@@ -1,0 +1,11 @@
+<view class="nav">
+  <view class="status-bar" style="height: {{statusBarHeight}}"></view>
+  <view class="title-bar" style="padding: {{capsuleTop}} {{capsuleRight}}; height: {{titleBarHeight}}">
+    <view class="left-capsule" style="width: {{capsuleWidth}}; height: {{capsuleHeight}}">
+      <text bindtap='navBack' class="iconfont icon-back" hover-class="navigator-hover"></text>
+      <text class="line"></text>
+      <text bindtap='navHome' class="iconfont icon-home" hover-class="navigator-hover"></text>
+    </view>
+    <view class="title">{{navTitle}}</view>
+  </view>
+</view>
