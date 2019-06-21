@@ -27,8 +27,8 @@
   position: relative;
   box-sizing: border-box;
   .left-capsule {
-    border-radius: 16px;
     border: 1px solid #d8d8d8;
+    border-radius: 16px;
     box-sizing: border-box;
     position: relative;
     .iconfont {
@@ -47,10 +47,14 @@
         border-top-right-radius: 16px;
         border-bottom-right-radius: 16px;
       }
+      &.nav-hover {
+        opacity: 0.6;
+        background: rgba(0, 0, 0, 0.1)!important;
+      }
     }
     .line {
       position: absolute;
-      background-color: #ececec;
+      background-color: #d8d8d8;
       width: 1px;
       height: 18px;
       top: 50%;
@@ -63,8 +67,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-  }
-  .navigator-hover {
-    background: rgb(0, 0, 0);
   }
 }

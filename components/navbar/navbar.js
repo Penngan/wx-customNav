@@ -1,4 +1,3 @@
-// components/navbar.js
 const app = getApp()
 Component({
   /**
@@ -26,6 +25,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    navHome() {
 
+    },
+    navBack() {
+
+    }
   }
 })
